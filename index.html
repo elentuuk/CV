@@ -142,36 +142,22 @@
     </p>
     <hr>
     <h1 class="kontak"><footer id="Contact Me">Contact Me</footer></h1>
-     <table cellspacing="0">
-        <tr>
-            <td>
-                <table cellspacing="5">
-                    <tr>
-                        <td><b>Name</b></td>
-                        <td>: <input type="text" name="Your Name"></td>
-                    </tr>
-                    <tr>
-                        <td><b>Your Email</b></td>
-                        <td>: <input type="text" name="Your Email"></td>
-                    </tr>
-                    <tr>
-                        <td><b>Your Message</b></td>
-                        <td>:</td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-    <textarea rows="10" cols="40" placeholder="type your message"></textarea>
-   <p><button><b>Submit</b></button></p>
-    <!-- <p> <b>Name</b> : <input type="text" name="Your Name"></p>
-    <p> <b> Your Email</b> : <input type="text" name="Your Email"></p>
-    <p>
-         <b>Your Message</b> :</br>
-          <textarea rows="10" cols="40" placeholder="type your message"></textarea>
-    </p>
-    <p>
-        <button><b>Submit</b></button>
-    </p> -->
+    <section id="contact-me">
+        <h1>Contact Me</h1>
+        <form>
+            <label for="none">Your Name : </label>
+            <input type="text" name="name" id="name" required>
+            <br>
+            <br>
+            <label for="email">Your Email :</label>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <br>
+            <label for="message">Your Message :</label>
+            <br>
+            <textarea name="message" id="message" cols="40" rows="10" placeholder="type your message..."></textarea><br>
+            <br>
+            <input type="submit" name="submit" >
+        </form>
 </body>
 </html>
