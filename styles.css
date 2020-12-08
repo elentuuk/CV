@@ -1,7 +1,7 @@
 div.nav{
     width: 100%;
     height: 40px;
-    background-color: #A09F9F;
+    background-color: #839b97;
     position: fixed;
     left: 0px;
     top: 0px;
@@ -10,47 +10,57 @@ div.nav{
     text-align: center;
 }
 body{
-    background-color: #d6d2c4;
+    background-color: #cfd3ce;
 }
 
 h1{
     font-family: Rockwell,"Courier Bold",Courier,Georgia,Times,"Times New Roman",serif;
     width:100%;
+    color: #707070;
 }
 
 h2{
     font-family: "Rockwell Extra Bold","Rockwell Bold",monospace
     width: 150%;
     margin: 0 auto;
+    color: #222831
 }
 
-h1.biografi{
+.biografi{
     text-align: center;
     font-size: 3em;
     width: 50%;
     margin: 0 auto;
+    color: #222831;
 }
 
-h1.edukasi{
+.edukasi{
     text-align: center;
     font-size: 3em;
     width: 50%;
     margin: 0 auto;
+    color: #222831;
 }
 
-h1.award{
+.award{
     text-align: center;
     font-size: 3em;
     width: 50%;
     margin: 0 auto;
+    color: #222831;
 }
 
-h1.kontak{
+.kontak{
     text-align: center;
     font-size: 3em;
     width: 50%;
     margin: 0 auto;
+    color: #222831;
 }
+
+.h3{
+    color: #706897;
+    background-color: #fceef5;
 
 p{
     font-family: 'Noto Serif', serif;
@@ -64,16 +74,16 @@ em{
     div.nav{
         font-size: 1em;
     }
-    h1.award{
+    .award{
         font-size: 2em;
     }
-    h1.biografi{
+    .biografi{
         font-size: 2em;
     }
-    h1.edukasi{
+    .edukasi{
         font-size: 2em;
     }
-    h1.kontak{
+    .kontak{
         font-size: 2em;
     }
 }
